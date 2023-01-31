@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { SearchBar } from "./Components/SearchBar";
+import { Header } from "./Components/Header";
+import { Footer } from "./Components/Footer";
+import { ImageGallery } from "./Components/ImageGallery";
+
+// API Key Pexels
+// 563492ad6f91700001000001feb193d28b3846d69d14fca34d49387a
+//www.pexels.com/es-es/api/documentation/?
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SearchBar />
+      <ImageGallery />
+      <Footer />
     </div>
   );
 }

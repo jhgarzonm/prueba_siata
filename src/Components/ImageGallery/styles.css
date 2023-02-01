@@ -1,0 +1,12 @@
+.Images-Container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.Images-Container img {
+  padding: 10px;
+  border-radius: 8%;
+}
+
+/*# sourceMappingURL=styles.css.map */

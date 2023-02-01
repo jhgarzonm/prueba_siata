@@ -23,10 +23,8 @@ footer {
   }
   
   .footer.top {
-    display: flex;
-    flex-flow: row nowrap;
+    display: block;
     padding: 2.5rem 0.5rem;
-    align-items: center;
     border-bottom: 1px solid #dadce0;
     background-color: var(--footer-color);
   }
@@ -34,16 +32,19 @@ footer {
   .footer.bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: var(--footer-color);
     height: max-content;
   }
   
   .location {
+
     padding: 0 2.5rem;
     color: whitesmoke;
-    font-weight: bold;
-  }
+    font-weight:bold;
+    
+    
+ }
   
   .about-bar {
     display: flex;

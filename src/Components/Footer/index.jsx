@@ -1,27 +1,25 @@
 import React from 'react'
-import "./style.css"
+import "./styles.css"
 
 function Footer() {
   return (
    <React.Fragment>
         <footer>
             <section className="footer top">
-                <a className="location">Colombia</a>
+                <a className="location">America</a>
             </section>
             <section className="footer bottom">
                 <div className="about">
                     <ul className="about-bar">
-                        <li className="itema">Sobre Google</li>
-                        <li className="itema">Publicidad</li>
-                        <li className="itema">Negocios</li>
-                        <li className="itema">Cómo funciona la Búsqueda</li>
-                    </ul>
+                        <li className="itema">jhgarzonm</li>
+                        <li className="itema">Web Development</li>
+                        <li className="itema">Cultural Heritage</li>
+                   </ul>
                 </div>
                 <div className="preferences">
                     <ul className="preferences-bar">
-                        <li className="itema">Privacidad</li>
-                        <li className="itema">Condiciones</li>
-                        <li className="itema">Preferencias</li>
+                        <li className="itema">Web App desarrollada con React</li>
+                        
                     </ul>
                 </div>
             </section>

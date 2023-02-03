@@ -9,19 +9,7 @@
     font-size: 1.3rem;
   }
   
-  .products {
-    height: 4rem;
-    width: 4rem;
-    padding: 0.8rem;
-    border-radius: 50%;
-  }
-  
-  .products:hover {
-    background-color: var(--botton-color);
-    /* opacity: 50%; */
-  }
-  
-  .profile-pic {
+   .profile-pic {
     display: flex;
     flex-wrap: wrap;
     margin: 0.8rem;
@@ -40,25 +28,10 @@
     box-shadow: 0px 0px 0px 0.4rem rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
+
+  /* 
+  @media (max-width: 1000)
+  centrar logo usuario
+  */
+   
   
-  .gmail {
-    margin: 0 1rem;
-  }
-  
-  .gmail:hover {
-    text-decoration: underline;
-  }
-  
-  .imagenes {
-    margin: 0 1rem;
-  }
-  
-  .imagenes:hover {
-    text-decoration: underline;
-  }
-  
-  .logo {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
-  }

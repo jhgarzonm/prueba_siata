@@ -9,4 +9,15 @@
   border-radius: 8%;
 }
 
+@media (max-width: 600px) {
+  .Images-Container {
+    align-items: center;
+    margin-left: 10vw;
+  }
+  .Images-Container img {
+    min-width: 300px;
+    width: 520px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -5,11 +5,11 @@ import "./styles.css"
 
 
 function ImageGallery(props) {
- const { images } = useContext(SearchContext);
+ const { images, search } = useContext(SearchContext);
   return (
     <React.Fragment>
       <div className="Images-Container">
-        {images?.map((image, index) => (
+        {!!search && images?.map((image, index) => (
         <img src={image?.src?.small} key={index}/> 
         ))}
       </div>

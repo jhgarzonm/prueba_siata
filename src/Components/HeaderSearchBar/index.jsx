@@ -20,7 +20,7 @@ function HeaderSearchBar({ search, setSearch, getImages }) {
         <section className="logo-header">
           <img
             className="logo-busqueda"
-            alt="google"
+            alt="Altavista"
             src="https://cdn.worldvectorlogo.com/logos/altavista-search-1.svg"
           />
         </section>

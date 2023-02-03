@@ -2,6 +2,7 @@ footer {
   position: fixed;
   bottom: 0;
   box-sizing: border-box;
+  margin-top: 1.5rem;
 }
 
 .footer {
@@ -70,5 +71,58 @@ footer {
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  footer {
+    flex-direction: column;
+    background-color: black;
+  }
+  .footer.top {
+    border-bottom: none;
+    margin-top: 2rem;
+  }
+  .about-bar, .preferences-bar {
+    flex-direction: column;
+  }
+  .itema {
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    display: none;
+  }
+}
+/*@media (max-width: 1000px) {
+
+  .footer {
+  display: flex;
+  flex-direction
+  flex-flow: row nowrap;
+  width: 100vw;
+  height: 1.8rem;
+  align on the center or fussionate
+
+}
+
+.footer.top {
+
+   border-bottom: 1px solid #dadce0;
+   eliminate border bottom
+}
+
+.footer.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color: var(--footer-color);
+  height: max-content;
+  change display
+
+}
+
+
+
+*/
 
 /*# sourceMappingURL=styles.css.map */

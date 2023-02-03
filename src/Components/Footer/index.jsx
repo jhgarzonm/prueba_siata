@@ -13,11 +13,12 @@ function Footer() {
                     <ul className="about-bar">
                         <li className="itema">jhgarzonm</li>
                         <li className="itema">Web Development</li>
-                        <li className="itema">Cultural Heritage</li>
+                        
                    </ul>
                 </div>
                 <div className="preferences">
                     <ul className="preferences-bar">
+                        <li className="itema">Cultural Heritage</li>
                         <li className="itema">Web App desarrollada con React</li>
                         
                     </ul>

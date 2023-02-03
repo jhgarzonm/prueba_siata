@@ -29,4 +29,10 @@
   cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+  .profile-pic {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

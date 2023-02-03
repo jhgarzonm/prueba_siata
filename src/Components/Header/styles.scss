@@ -29,9 +29,12 @@
     cursor: pointer;
   }
 
-  /* 
-  @media (max-width: 1000)
-  centrar logo usuario
-  */
+   
+  @media (max-width: 1000px) {
+    .profile-pic {
+      display: none;
+    }
+  }
+  
    
   

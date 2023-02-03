@@ -8,19 +8,14 @@
   max-height: 10rem;
 }
 
-.logo-header {
-  padding: 2.5rem;
-}
-
 .logo-busqueda {
-  width: 16rem;
+  width: 20vw;
   padding: 1rem;
 }
 
 .search-bar {
   position: relative;
-  width: 58.2rem;
-  min-width: 30rem;
+  width: 30vw;
 }
 
 .center-bar-header {
@@ -82,15 +77,5 @@ button:hover {
   font-size: small;
   color: var(--text-color);
 }
-
-/* 
-@media (max width:1000px);
-
-.logo-header {
-  padding: 2.5rem;
-  mantain centered
-}
-
-*/
 
 /*# sourceMappingURL=styles.css.map */

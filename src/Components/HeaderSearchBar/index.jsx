@@ -30,6 +30,9 @@ function HeaderSearchBar({ search, setSearch, getImages }) {
               className="center-bar-header"
               onChange={searchInGoogle}
               value={search}
+              onKeyPress={(event) =>
+                event.key === "Enter" ? searchInApi(search) : ""
+              }
             />
             
             <div className="search-button" onClick={searchInApi}>
